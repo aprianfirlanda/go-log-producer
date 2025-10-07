@@ -1,0 +1,10 @@
+defaultBaseImage: gcr.io/distroless/static:nonroot
+builds:
+  - id: server
+    main: ./cmd/server
+    flags:
+      - -trimpath
+    ldflags:
+      - -s -w
+    env:
+      - CGO_ENABLED=0
