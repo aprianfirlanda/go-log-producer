@@ -12,10 +12,10 @@ https://ko.build/install/
 
 set env variable to put value docker repository
 ```shell
-export KO_DOCKER_REPO=docker.io/aprianfirlanda
+export KO_DOCKER_REPO=docker.io/aprianfirlanda/go-log-producer
 ```
 
 build and push image
 ```shell
-ko build --tags 0.1.0 --platform=linux/amd64,linux/arm64 .
+ko build --bare --tags 0.1.0 --platform=linux/amd64,linux/arm64 .
 ```
