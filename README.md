@@ -12,7 +12,7 @@ https://ko.build/install/
 
 set env variable to put value docker repository
 ```shell
-export KO_DOCKER_REPO=docker.io/aprianfirlanda/go-log-producer
+export KO_DOCKER_REPO=docker.io/aprianfirlanda
 ```
 
 build and push image
